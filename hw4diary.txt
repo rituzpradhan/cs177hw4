@@ -1,0 +1,191 @@
+octave-3.2.4.exe:76> test_array_count9()
+		array_count9[{7 45 9 89 45 9 3 9 1 }]=3
+		array_count9[{9 9 9 9 }]=4
+		array_count9[{93 94 95 96 97 98 99 }]=0
+		array_count9[{9 0 1 0 9 }]=2
+		array_count9[{0 }]=0
+		array_count9[{9 0 1 0 9 }]=2
+		array_count9[{0 }]=0
+		array_count9[{1 2 9 }]=1
+		array_count9[{9 }]=1
+		array_count9[{-9 }]=0
+		array_count9[{}]=0
+		array_count9[{9 9 9 9 9 }]=5
+ans = 0
+octave-3.2.4.exe:77> test_array_front9()
+       array_front9(1,2,9,3,4) = 1
+       array_front9(3,7,9,9) = 0
+       array_front9(4,11,8,6,99,12) = 0
+       array_front9(9,19,29,9) = 0
+       array_front9(0,5,7,9,9,12) = 1
+       array_front9(11,1,21,30) = 0
+       array_front9(9,9,9) = 0
+       array_front9(9,5) = 0
+       array_front9(6,2,7,3) = 0
+       array_front9(9999,999,99,9) = 1
+e = 0
+octave-3.2.4.exe:78> test_commonTwo()
+commonTwo(acx,bcdx)=2
+commonTwo(acx,abcxz)=3
+commonTwo(abc,abc)=3
+commonTwo(aabbc,abc)=3
+commonTwo(aabbc,aabbc)=3
+commonTwo(aabbc,abbcc)=3
+commonTwo(bbbbc,abbbc)=2
+commonTwo(abccd,abbcdd)=4
+commonTwo(aabbc,bbb)=1
+commonTwo(aabbc,cc)=1
+commonTwo(,)=0
+commonTwo(a,ab)=1
+commonTwo(a,b)=0
+ans = 0
+octave-3.2.4.exe:79> test_count7()
+        count7(717)->2
+        count7(7)->1
+        count7(123)->0
+        count7(77)->2
+        count7(7123)->1
+        count7(77123)->2
+        count7(771737)->4
+        count7(47571)->2
+        count7(777777)->6
+        count7(70701277)->4
+        count7(777576197)->5
+        count7(99999)->0
+        count7(99799)->1
+        count7(0)->0
+        count7(1283409123840128357039291940226707608203761530213151259404137532489728)->0
+        count7(170792874071872)->5
+        count7(777777777777777)->15
+        count7(0)->0
+        count7(7577)->3
+ans = 0
+octave-3.2.4.exe:80> test_count11()
+. Test 1 | count11(ab11c11d11ar)
+. Test 2 | count11(ssssabcdar)
+. Test 3 | count11(abcbcdabcr11)
+. Test 4 | count11(11lghkl;gabcbcdabcr)
+. Test 5 | count11(111bcbcdabcdfljldfr)
+. Test 6 | count11(cccabccc1111cbcdabccccr)
+. Test 7 | count11(abcb1cdabcr)
+. Test 8 | count11()
+. Test 9 | count11(11)
+. Test 10 | count11(1)
+. Test 11 | count11(1111)
+. Test 12 | count11(111)
+
+Completed with 12 passes and 0 fails
+
+octave-3.2.4.exe:81> test_dividesSelf()
+        divideSelf(128)->1
+        divideSelf(12)->1
+        divideSelf(120)->0
+        divideSelf(13)->0
+        divideSelf(32)->0
+        divideSelf(22)->1
+        divideSelf(42)->0
+        divideSelf(212)->1
+        divideSelf(213)->0
+        divideSelf(162)->1
+        divideSelf(0)->0
+        divideSelf(4560)->0
+        divideSelf(122)->1
+ans = 0
+octave-3.2.4.exe:82> test_getSandwich()
+getSandwich(breadjellybread) --> jelly
+getSandwich(xxbreadjellybreadjellyxxbread) --> jellybreadjellyxx
+getSandwich(xxbreadxxxx) --> 
+getSandwich(brxxeadxxbreadjambread) --> jam
+getSandwich(breadbreadbreadbread) --> breadbread
+getSandwich(breadjuicyhamandturkeybreadmoreturkeybread) --> juicyhamandturkeybreadmoreturkey
+getSandwich(turkeybreadham) --> 
+getSandwich(breadporkxbrxreadxbredbradbread) --> porkxbrxreadxbredbrad
+getSandwich(bread) --> 
+getSandwich(breadbread) --> 
+getSandwich(abc) --> 
+getSandwich(xyzbreadbreadbreadxyz) --> bread
+getSandwich(bread1234bread) --> 1234
+ans = 0
+octave-3.2.4.exe:83> test_powerN()
+powerN(3,2)=9
+powerN(5,3)=125
+powerN(9,3)=729
+powerN(10,3)=1000
+powerN(7,2)=49
+powerN(4,4)=256
+powerN(8,3)=512
+powerN(6,3)=216
+powerN(2,5)=32
+powerN(11,2)=121
+powerN(25,4)=390625
+powerN(4,9)=262144
+powerN(0,2)=0
+powerN(2,1)=2
+powerN(2,0)=1
+ans = 0
+octave-3.2.4.exe:84> test_sumDigit()
+sumDigit(32)=5
+sumDigit(53)=8
+sumDigit(953)=17
+sumDigit(103)=4
+sumDigit(4944)=21
+sumDigit(256)=13
+sumDigit(5121)=9
+sumDigit(1216)=10
+sumDigit(2532)=12
+sumDigit(121)=4
+sumDigit(1111)=4
+sumDigit(0)=0
+sumDigit(10)=1
+ans = 0
+octave-3.2.4.exe:85> test_sortaSum()
+sortaSum(3, 4) = 7
+
+sortaSum(9, 4) = 20
+
+sortaSum(10, 11) = 21
+
+sortaSum(12, -3) = 9
+
+sortaSum(-3, 12) = 9
+
+sortaSum(4, 5) = 9
+
+sortaSum(4, 6) = 20
+
+sortaSum(14, 7) = 21
+
+sortaSum(14, 6) = 20
+
+sortaSum(14, 5) = 20
+
+sortaSum(-10, 10) = 0
+
+sortaSum(15, 2) = 20
+
+sortaSum(21, -2) = 20
+
+sortaSum(-20, 5) = -15
+
+sortaSum(0, 0) = 0
+
+sortaSum(-3, -3) = -6
+
+Failures: 0
+octave-3.2.4.exe:86> test_array11()
+		array11 { [11,5,1,55,11] } -->2
+		array11 { [11,5,55,11] } -->2
+		array11 { [11,11] } -->2
+		array11 { [1,2,3,4] } -->0
+		array11 { [] } -->0
+		array11 { [11,5,11] } -->2
+		array11 { 1 } -->0
+		array11 { 11 } -->1
+		array11 { [11,3,11,11] } -->3
+		array11 { 0 } -->0
+		array11 { [-56,58,1] } -->0
+		array11 { [-11,58,1] } -->0
+		array11 { [-11,11,1] } -->1
+		array11 { [1,11,1] } -->1
+ans = 0
+octave-3.2.4.exe:87> diary off
